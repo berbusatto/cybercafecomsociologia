@@ -1,0 +1,144 @@
+body{
+    font-family: 'verdana', sans-serif;
+}
+
+/* grid 960px e 960/12colunas = 80px
+utilizei 60px para que haja padding entre colunas */
+
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 10px 0px;    
+}
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
+/* definindo o tamanho das colunas, sempre vai ser 
+(tamanho da primeira + 80). */
+
+.col1{
+    width: 60px;
+}
+.col2{
+    width: 140px; /* 60 da col1 + 80 da col2 */
+}
+.col3{
+    width: 220px;
+}
+.col4{
+    width: 300px;
+    }
+.col5{
+    width: 380px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 540px;
+}
+.col8{
+    width: 620px;
+}
+.col9{
+    width: 700px;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}
+
+/* começando a dar forma nesse treco */
+
+.header{
+    background: #212227;
+}
+
+div.coluna.col7 nav{
+    background: #EFCB68;
+    overflow:hidden;
+    border-radius: 5px;
+}
+
+.header div.coluna.col5{
+    color: #E1EFE6;
+    
+}
+div.coluna.col7 nav {
+    text-align: center;
+}
+
+div.coluna.col7 nav ul li {
+    display: inline-block;
+    font-size: 18px;
+}
+div.coluna.col7 nav ul{
+    padding-right: 40px;
+}
+
+a:link, a:visited{
+    color: #212227;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #AEB7B3;
+}
+
+div.section{
+    background: #E1EFE6;
+}
+
+.section h1{
+    font-size: 25px;
+}
+.section p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+div.article{
+    background: #E1EFE6;
+}
+div.article p{
+    font-size: 14px;
+}
+div.footer{
+    background: #212227;
+    text-align: right;
+    color: #E1EFE6;
+}
+
+.article p{
+    text-align: justify;
+}
+
+div.aside{
+    background: #EFCB68;
+    color: #212227;
+    float: inline-end;  
+    padding: 3px;
+    border-radius: 5px;
+}
+#vermais:hover{
+    cursor: pointer;
+}
+
+div.coluna.col9 {
+    max-width: 846px;
+    background: #E1EFE6;
+    border-radius: 5px;
+}
+
+
+.aside{
+    float: right;
+    text-decoration: none;
+}
